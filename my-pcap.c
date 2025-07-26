@@ -44,8 +44,10 @@ bool packet_handler(const struct pcap_pkthdr *pkthdr, const u_char *packet) {
             else printf("-");
             printf("\n");
         }
+        else return false;
     }
-    return (ntohs(eth->ether_type) == 0x0800) && (ip->ip_p == 0x06);
+    else return false;
+    return true;
 }
 
 void packet_capture(pcap_t* pcap) {

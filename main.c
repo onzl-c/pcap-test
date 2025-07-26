@@ -18,6 +18,7 @@ int main(int argc, char* argv[]) {
     // #2. packet capture
     packet_capture(pcap);
 
+	// 3. pcap close
 	pcap_close(pcap);
     return 0;
 }
