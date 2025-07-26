@@ -1,4 +1,4 @@
--  main.c: main함수
--  parse: main함수 인자 parsing logic 정의
--  my-pcap: packet을 처리해주기 위한 함수 정의
--  struct.h: packet 구조체(ethernet, ip, tcp) 정의
+-  `main.c`: main함수
+-  `parse`: main함수 인자 parsing logic 정의
+-  `my-pcap`: packet을 처리해주기 위한 함수 정의
+-  `struct.h`: packet 구조체(ethernet, ip, tcp) 정의
